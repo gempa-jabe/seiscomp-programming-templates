@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp>
+	<plugin name="score-template">
+		<extends>scevent</extends>
+		<description>score plugin template for scevent</description>
+		<configuration>
+			<group name="scoreProcessors">
+				<description>
+				Add your general configuration description here.
+				</description>
+				<group name="template">
+					<parameter name="param1" type="string">
+						<description>
+						This is a string parameter.
+						</description>
+					</parameter>
+					<parameter name="param2" type="double">
+						<description>
+						This is a double parameter.
+						</description>
+					</parameter>
+				</group>
+			</group>
+		</configuration>
+	</plugin>
+</seiscomp>
